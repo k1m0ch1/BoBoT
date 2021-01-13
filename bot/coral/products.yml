@@ -1,0 +1,14 @@
+author:
+  name: Yahya
+  phone: "085659289271"
+  email: yahyafalfatih@gmail.com
+
+commands:
+  prefix: "li"
+  command: "st"
+  record: False
+  run_process: False
+  message: "{{http://127.0.0.1:8000/item/list}}"
+
+expected_users:
+  - 6285659289271
